@@ -56,7 +56,7 @@ public class Project {
     public void displayMember(){
         System.out.println("Leader, " + this.leader);
         for(int i = 0; i < memberCount; i++){
-            System.out.printf("Member #%s, %s\n", i, memberList[i]);
+            System.out.printf("Member #%s, %s\n", i+1, memberList[i]);
         }
     }
 }
